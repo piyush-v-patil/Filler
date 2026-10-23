@@ -1,0 +1,59 @@
+{
+  "original_sha256": "aaedc039ee48f3c9a0093bd089048063996d63f0e5038c3dbaf6cba75544a542",
+  "source_unchanged": true,
+  "provenance_ranges_verified": 5183,
+  "readable_syntax_validation": "Original and readable whole-file AST fingerprints matched during generation; see provenance.json.",
+  "distinct_leaf_fragments_processed": 41,
+  "remaining_heap_failure_in_leaf_fragments": false,
+  "semantic_completeness": "partial; fragment boundaries and recorded REA limits remain",
+  "runs": [
+    {
+      "file": "rea-fragments-summary.json",
+      "parent_evidence_id": "ev_23fc1ff77a8e53790918fec846386a1d945045f64d8b38be2a8006c783587982",
+      "statistics": {
+        "relevant_files": 35,
+        "nested_asar_containers": 0,
+        "text_bytes_read": 2280726,
+        "invalid_utf8_files": 0,
+        "parsed_javascript_files": 34,
+        "skipped_javascript_files": 1,
+        "visited_ast_nodes": 577753,
+        "findings": 102,
+        "modules": 0,
+        "parse_failures": 0
+      }
+    },
+    {
+      "file": "rea-renderer-summary.json",
+      "parent_evidence_id": "ev_8c58628127fed7c6d606880b587b960b1b1d0d993f644271f86647929034d062",
+      "statistics": {
+        "relevant_files": 7,
+        "nested_asar_containers": 0,
+        "text_bytes_read": 176381,
+        "invalid_utf8_files": 0,
+        "parsed_javascript_files": 6,
+        "skipped_javascript_files": 1,
+        "visited_ast_nodes": 49097,
+        "findings": 0,
+        "modules": 0,
+        "parse_failures": 0
+      }
+    },
+    {
+      "file": "rea-renderer-retry-summary.json",
+      "parent_evidence_id": "ev_9c5ee2d9f48cbbda108e4ce0206717968a24b66c4abde8f10affe4c4567cea0d",
+      "statistics": {
+        "relevant_files": 7,
+        "nested_asar_containers": 0,
+        "text_bytes_read": 24712,
+        "invalid_utf8_files": 0,
+        "parsed_javascript_files": 1,
+        "skipped_javascript_files": 0,
+        "visited_ast_nodes": 8704,
+        "findings": 0,
+        "modules": 0,
+        "parse_failures": 0
+      }
+    }
+  ]
+}
